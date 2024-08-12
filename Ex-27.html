@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking Form</title>
+</head>
+
+<body>
+    <h1>Please fill these details before Schedule trip</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fullName">FullName:</label>
+            <input required id="fullName" type="text" size="20" name="fullName" value="Varudhini">
+            <!-- <br>
+        <br>
+        <label for="password">PassWord:</label>
+        <input required id="password" type="password" minlength="6" maxlength="10" size="20" name="password"
+            placeholder="password"> -->
+            <br>
+            <br>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="email" placeholder="abc@gmail.com">
+            <br><br>
+            <label for="pnum"> Phone Number:</label>
+            <input type="tel" id="pNum" name="phNum" placeholder="+91-123456789" required>
+            <br><br>
+            <label for="dob"> Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Trip Details</legend>
+            <label for="arrival">Arrival date</label>
+            <input type="datetime-local" id="arrival" name="arrival" required>
+            <br><br>
+            <label for="departure">Departure Date</label>
+            <input type="datetime-local" id="departure" name="departure" required>
+            <br><br>
+            <label for="numTravel">No. of Travelers:</label>
+            <input type="number" idd="numTravel" name="numTravel" minlength="0" maxlength="10">
+            <br>
+            <br>
+            <label for="pref">Accomodation</label>
+            <select id="pref" name="accomodation">
+                <optgroup label="Hotels">
+                    <option value="3-star">3-start</option>
+                    <option value="4-star">4-start</option>
+                    <option value="5-star">5-start</option>
+                </optgroup>
+                <option value="resort">Resort</option>
+                <option value="guestHouse">GustHouse</option>
+                <option value="villa" selected>Villa</option>
+            </select>
+            <br><br>
+            <fieldset>
+                <legend>preferred Activities</legend>
+                <input type="checkbox" id="Snorkeling" name="activity" value="Snorkeling">
+                <label for="Snorkeling">Snorkeling</label>
+                <br>
+                <input type="checkbox" id="hiking" name="activity" value="hiking">
+                <label for="hiking">Hiking</label>
+                <br>
+                <input type="checkbox" id="spa" name="activity" value="spa" checked>
+                <label for="spa">Spa</label>
+                <br><br>
+            </fieldset>
+            <p><b>Baby on Board?</b></p>
+            <input type="radio" name="onBoard" value="yes" id="onYes">
+            <label for="onYes">Yes</label>
+            <input type="radio" name="onBoard" value="No" id="onNo" checked>
+            <label for="onNo">No</label>
+            <br><br>
+            <p><b>Special Requests</b></p>
+            <textarea cols="40" rows="10"></textarea>
+        </fieldset>
+        <br><br>
+        <input type="submit" value="Submit Holiday Plan">
+        <input type="reset">
+        <input type="button" value="button">
+    </form>
+</body>
+
+</html>
