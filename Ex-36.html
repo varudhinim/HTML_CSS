@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-2</title>
+</head>
+
+<body>
+    <h1>Please Enter Your Details</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="firstName">First name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="John" required>
+            <br>
+            <label for="lastName">LastName:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Doe" required>
+            <br>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="mail" placeholder="john.doe@example.com" required>
+            <br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="25" required>
+            <br>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Interest</legend>
+            <input type="checkbox" id="music" name="interest">
+            <label for="music">Music</label>
+            <input type="checkbox" id="sport" name="interest">
+            <label for="sport">Sports</label>
+            <input type="checkbox" id="reading" name="interest">
+            <label for="reading">Reading</label>
+        </fieldset>
+        <fieldset>
+            <legend>Location</legend>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <optgroup label="America">
+                    <option value="United State">United State</option>
+                    <option value="Canada">Canada</option>
+                </optgroup>
+                <optgroup label="Asia">
+                    <option value="india">India</option>
+                    <option value="china">China</option>
+                </optgroup>
+
+            </select>
+            <br>
+            <label>City</label>
+            <select name="city" id="city">
+                <optgroup label="America">
+                    <option value="newYork">New york City</option>
+                    <option value="jesery">New Jersey</option>
+                </optgroup>
+                <optgroup label="Asia">
+                    <option value="hyd">Hyderabad</option>
+                    <option value="blg">Benglore</option>
+                </optgroup>
+
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Additional Information</legend>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="5" cols="30" placeholder="Your Comment go here."></textarea>
+            <br>
+            <label for="profilePic">Profile Picture:</label>
+            <input type="file" id="profilePic" name="profilePic" accept=".jpg,.jpeg,.png" capture="camera">
+        </fieldset>
+        <fieldset>
+            <legend>Submit Options</legend>
+            <label>Preferred Submission Method:</label>
+            <input type="radio" checked>
+            <label name="online" id="online">Online</label>
+            <input type="radio" name="offline" id="offline">
+            <label>Offline</label>
+            <br>
+            <label for="letter">Subscribed to Newsletter:</label>
+            <input id="letter" name="letter" type="checkbox" checked>
+        </fieldset>
+        <button type="submit" value="Submit" name="submit">Submit</button>
+        <button type="reset" value="Reset" name="submit">Reset</button>
+    </form>
+</body>
+
+</html>
