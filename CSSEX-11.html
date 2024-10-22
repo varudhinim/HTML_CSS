@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/CSSEX-11.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html"> Home</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <header>
+        <h1>Welcome to Our Hotel</h1>
+    </header>
+    <section class="room_Section">
+        <article class="room">
+            <h2>Deluxe Room</h2>
+            <p>King Bed</p>
+            <p>$150 per night</p>
+            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000002639_1709045382_Deluxe.jpg"
+                alt="Deluxe Room Image">
+        </article>
+        <article class="room">
+            <h2>Executive Suite</h2>
+            <p>Queen Bed</p>
+            <p>$200 per night</p>
+            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000002640_1709045757_room.jpg"
+                alt="Queen Room Image">
+        </article>
+        <article class="room">
+            <h2>Family Room</h2>
+            <p>Two Double Beds</p>
+            <p>$180 per night</p>
+            <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000002641_1709045771_room2.jpg"
+                alt="Family Room Image">
+        </article>
+    </section>
+    <section class="pricing_table">
+        <h2 class="price_headding">Pricing</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Room Type</th>
+                    <th>Occupancy</th>
+                    <th>Price per Night</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>standard Room</td>
+                    <td>1-2People</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>Deluxe Room</td>
+                    <td>2-4People</td>
+                    <td>$150</td>
+                </tr>
+                <tr>
+                    <td>Suite </td>
+                    <td>4-6People</td>
+                    <td>$200</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="reservation_form">
+        <h2>Book Your stay</h2>
+        <form>
+            <label for="name">Your name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="check-in-date">Check-In-Date:</label>
+            <input type="date" id="check-in-date" name="check-in-date" required />
+
+            <label for="check-out-date">Check-Out-Date:</label>
+            <input type="date" id="check-out-date" name="check-out-date" required />
+
+            <button type="submit">Book Now</button>
+
+        </form>
+    </section>
+</body>
+
+</html>

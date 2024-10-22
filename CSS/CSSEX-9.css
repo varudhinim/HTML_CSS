@@ -1,0 +1,81 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+header {
+  padding: 20px;
+  color: white;
+  background-color: #3498db;
+}
+.room {
+  border: 3px solid #3498db;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px;
+  width: 300px;
+  text-align: left;
+  background-color: #ffffff;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.reservation_form {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.reservation_form h2 {
+  margin-bottom: 20px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0px;
+  box-sizing: border-box;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+}
+button {
+  background-color: #0008ee;
+  color: white;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+}
+article {
+  display: inline-block;
+}
+.pricing_table {
+  margin: 20px;
+  padding: 10px;
+}
+.price_headding {
+  margin-bottom: 20px;
+  color: #2980b9;
+}
+table {
+  margin: 0px auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+td,
+th {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #add;
+  padding: 15px;
+}
+th {
+  background-color: #3498db;
+  color: white;
+}
+td {
+  background-color: #fff;
+}

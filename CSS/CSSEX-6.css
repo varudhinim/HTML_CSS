@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  background-color: #3498db;
+  padding: 20px;
+  color: white;
+}
+
+header {
+  padding: 20px;
+  color: white;
+  background-color: #3498db;
+}
+label {
+  margin-top: 10px;
+}
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 10px;
+  box-sizing: border-box;
+  border: solid 1px #3498db;
+  border-radius: 5px;
+}
+textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 10px;
+  box-sizing: border-box;
+  border: solid 1px #3498db;
+  border-radius: 5px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 20%;
+  background-color: blue;
+  color: white;
+}

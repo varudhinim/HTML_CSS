@@ -1,0 +1,20 @@
+#mainHeading {
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px cyan;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.backgroundExample {
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.textSection {
+  font-family: 'Courier New', Courier, monospace;
+}
+.textStyle {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  text-align: center;
+}

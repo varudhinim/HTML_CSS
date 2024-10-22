@@ -1,0 +1,22 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+[data-styled='true'] {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+[data-styled='true'] th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color: #4caf50;
+  color: white;
+}
+[data-styled='true'] td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
