@@ -1,0 +1,135 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Room Styling */
+.room {
+  border: 2px solid #00838f;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #fff;
+  width: 250px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+}
+
+.room-number {
+  color: #00838f;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.room-type {
+  color: #616161;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.room-price {
+  color: #4caf50;
+  font-size: 16px;
+}
+
+/* Guest Check-in Table Styling */
+.guest-checkin {
+  margin-top: 30px;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.guest-checkin th {
+  background-color: #00897b;
+  color: white;
+  height: 40px;
+}
+
+.guest-checkin td {
+  border: 1px solid #bdbdbd;
+  padding: 12px;
+  background-color: #eceff1;
+}
+
+.guest-checkin th,
+.guest-checkin td {
+  color: #333;
+}
+
+/* Destination List Styling */
+.destinations {
+  margin-top: 50px;
+}
+
+.destinations h2 {
+  color: #004d40;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.destinations ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.destinations li {
+  font-size: 18px;
+  margin-bottom: 5px;
+  background-color: #f2f2f2;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+/* Services List Styling */
+.services {
+  margin-top: 50px;
+}
+
+.services h2 {
+  color: #004d40;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.services ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.services li {
+  font-size: 18px;
+  margin-bottom: 5px;
+  background-color: #f2f2f2;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.room:first-child {
+  background-color: #ffecb3;
+}
+
+.destinations li:hover {
+  background-color: #d0e8ce;
+}
+
+.destinations li:last-child {
+  font-weight: bold;
+}
+
+.services li:hover {
+  background-color: #d0e8ce;
+}
+.services li:last-child {
+  border: 2px solid #004d40;
+}
