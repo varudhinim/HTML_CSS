@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+header {
+  background-color: #113f67;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  top: 0;
+  color: #e7eaf6;
+  position: fixed;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+main {
+  margin: 20px;
+  padding: 10px;
+}
+section {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 48%;
+  box-sizing: border-box;
+  margin-top: 100px;
+  border-radius: 10px;
+  background-color: #142d4c;
+  color: #ececec;
+  text-align: center;
+  margin-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#first_section {
+  position: relative;
+  display: inline-block;
+}
+
+#second_section {
+  position: absolute;
+  height: 300px;
+}
+.expense-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #ececec;
+}
+.expense-item {
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 110px;
+}
+
+th,
+td {
+  border: 1px solid #3498db;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #142d4c;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.important-note button {
+  background-color: #113f67;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #113f67;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  position: static;
+}
+
+.important-note {
+  position: sticky;
+  top: 100px;
+}
