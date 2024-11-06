@@ -1,0 +1,14 @@
+.outer {
+  background-color: aqua;
+  /* display: flex; */
+  display: flex;
+}
+.inner {
+  background-color: blueviolet;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.inner1 {
+  background-color: beige;
+}
