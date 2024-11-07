@@ -1,0 +1,25 @@
+.trans {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  font-size: 24px;
+  line-height: 9rem;
+
+  margin: 20px;
+}
+
+.trans:hover {
+  background-color: chartreuse;
+  color: blue;
+  height: 500px;
+  width: 200px;
+}
+
+.box {
+  transition-duration: 2s;
+  transition-delay: 2s;
+  /* transition-property: background-color; */
+}
