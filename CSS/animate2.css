@@ -1,0 +1,29 @@
+body {
+  margin: 20px;
+  padding: 100px;
+}
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  /* padding: 20px; */
+}
+.ball {
+  width: 200px;
+  height: 150px;
+  /* margin: 5px; */
+  border-radius: 50%;
+  background: conic-gradient(red, orange, yellow, green, blue);
+  animation-name: slide ;
+  animation-duration: 1s;
+  animation-iteration-count: 5;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(350px);
+  }
+}
